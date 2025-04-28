@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FURIA Chatbot</title>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col justify-center items-center">
+
+  <header class="text-center p-6 text-3xl font-bold text-purple-400">
+    Chatbot FURIA 🐆
+  </header>
+
+  <main class="flex flex-col items-center p-4 gap-6 w-full max-w-md">
+    
+    <!-- Área do chat -->
+    <div id="chat" class="bg-gray-800 rounded p-4 w-full h-96 overflow-y-auto space-y-2">
+      <!-- Mensagens aparecem aqui -->
+    </div>
+
+    <!-- Botões de opções -->
+    <div id="chat-options" class="flex flex-wrap justify-center gap-3">
+      <button class="bg-purple-600 py-2 px-4 rounded hover:bg-purple-700" onclick="sendOption('proximos_campeonatos')">Próximos Campeonatos</button>
+      <button class="bg-purple-600 py-2 px-4 rounded hover:bg-purple-700" onclick="sendOption('time')">Time</button>
+      <button class="bg-purple-600 py-2 px-4 rounded hover:bg-purple-700" onclick="sendOption('curiosidade')">Curiosidade</button>
+      <button class="bg-purple-600 py-2 px-4 rounded hover:bg-purple-700" onclick="sendOption('jogos_mes')">Resultados</button>
+      <button class="bg-purple-600 py-2 px-4 rounded hover:bg-purple-700" onclick="sendOption('proximos_jogos')">Próximos Jogos</button>
+    </div>
+
+  </main>
+
+  <footer class="text-center p-4 text-gray-500 text-sm">
+    Desenvolvido por um fã da FURIA 🖤
+  </footer>
+
+</body>
+</html>
