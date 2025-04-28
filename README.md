@@ -79,7 +79,7 @@ Este projeto foi desenvolvido como parte do **Challenge #1 - Experiência Conver
 ## 📂 Estrutura do Projeto
 
 ```
-furia-chatbot/
+chatbot-furia/
 ├── public/
 │   ├── index.html
 │   └── script.js
